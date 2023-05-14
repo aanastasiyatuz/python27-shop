@@ -2,6 +2,7 @@ from rest_framework import serializers
 
 from .models import User
 
+
 class RegisterUserSerializer(serializers.ModelSerializer):
     password_confirm = serializers.CharField(min_length=4, required=True)
 

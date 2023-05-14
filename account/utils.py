@@ -16,3 +16,11 @@ def send_activation_code(email: str, code: str):
 		recipient_list=[email],
 		html_message=html
 	)
+
+
+def send_successful_payment_message(email: str, order):
+	...
+
+
+def send_error_payment_message(email: str, order):
+	...
